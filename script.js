@@ -204,11 +204,6 @@ if ('serviceWorker' in navigator) {
     });
 }
 // Security features with taunts
-// Funny taunt on right click
-document.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-  alert("😏 No right click! Thought you were smart, huh?");
-});
 // Funny taunt on F12 and other DevTools keys
 document.addEventListener('keydown', function (e) {
   if (e.key === "F12" || e.keyCode === 123) {
